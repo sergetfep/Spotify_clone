@@ -105,11 +105,11 @@ const resumePlaying = () => {
     <div class="flex flex-row items-center mr-auto basis-1/2 xs:basis-1/4">
       <img class="w-16 h-16 hidden xs:block" :src="'album-covers/' + activeSong?.imgPath" />
       <div class="flex flex-col xs:ml-2">
-        <span class="text-lg font-bold">{{ activeSong?.title }}</span>
-        <span class="text-xs text-gray-400">{{ activeSong?.artistName }}</span>
+        <span class="text-lg font-bold">{{ activeSong.title }}</span>
+        <span class="text-xs text-gray-400">{{ activeSong.artistName }}</span>
       </div>
       <button @click="revertLike(activeSong.id)" class="hidden xs:block xs:ml-5">
-        <img :src="activeSong?.isLiked ? 'heart-filled.png' : 'heart.png'" class="w-8 h-8 p-1" />
+        <img :src="activeSong.isLiked ? 'heart-filled.png' : 'heart.png'" class="w-8 h-8 p-1" />
       </button>
     </div>
     <div class="flex flex-col items-center basis-1/4 xs:basis-1/2">
