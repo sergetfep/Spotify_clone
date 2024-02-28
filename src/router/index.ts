@@ -1,23 +1,45 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHashHistory } from "vue-router";
+import HomePage from "../pages/HomePage.vue";
+import LikedSongs from "../pages/LikedSongs.vue";
+import AlbumPage from "../pages/AlbumPage.vue";
+import LibraryPage from "../pages/LibraryPage.vue";
+import GenrePage from "../pages/GenrePage.vue";
+import SearchPage from "../pages/SearchPage.vue";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: HomeView
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
-    }
-  ]
-})
+    history: createWebHashHistory(),
+    routes: [
+        {
+            path: "/",
+            name: "home",
+            component: HomePage,
+        },
+        {
+            path: "/search",
+            name: "search",
+            component: SearchPage,
+        },
+        {
+            path: "/collection",
+            name: "library",
+            component: LibraryPage,
+        },
+        {
+            path: "/liked-songs",
+            name: "liked-songs",
+            component: LikedSongs,
+        },
+        {
+            path: "/albums/:albumId",
+            name: "albums",
+            component: AlbumPage,
+        },
+        {
+            path: "/genres/:genreId",
+            name: "genres",
+            component: GenrePage,
+        },
+    ],
+});
 
-export default router
+export default router;

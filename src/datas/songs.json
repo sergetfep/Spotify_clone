@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "albumId": 1,
+        "title": "Without Me",
+        "duration": 290,
+        "isLiked": true,
+        "songPath": "without-me.mp3",
+        "genres": [3, 6]
+    },
+    {
+        "id": 2,
+        "albumId": 1,
+        "title": "'Till I Collapse",
+        "duration": 297,
+        "isLiked": false,
+        "songPath": "till-i-collapse.mp3",
+        "genres": [3, 6]
+    },
+    {
+        "id": 3,
+        "albumId": 2,
+        "title": "The Real Slim Shady",
+        "duration": 284,
+        "isLiked": true,
+        "songPath": "the-real-slim-shady.mp3",
+        "genres": [3, 6]
+    },
+    {
+        "id": 4,
+        "albumId": 3,
+        "title": "Montero",
+        "duration": 137,
+        "isLiked": true,
+        "songPath": "montero.mp3",
+        "genres": [2, 3, 6]
+    },
+    {
+        "id": 5,
+        "albumId": 3,
+        "title": "Industry Baby",
+        "duration": 212,
+        "isLiked": true,
+        "songPath": "industry-baby.mp3",
+        "genres": [2, 3, 6]
+    },
+    {
+        "id": 6,
+        "albumId": 4,
+        "title": "Master of Puppets",
+        "duration": 515,
+        "isLiked": true,
+        "songPath": "master-of-puppets.mp3",
+        "genres": [1, 5]
+    },
+    {
+        "id": 7,
+        "albumId": 4,
+        "title": "Battery",
+        "duration": 312,
+        "isLiked": true,
+        "songPath": "battery.mp3",
+        "genres": [1, 5]
+    },
+    {
+        "id": 8,
+        "albumId": 5,
+        "title": "Hardwired",
+        "duration": 189,
+        "isLiked": true,
+        "songPath": "hardwired.mp3",
+        "genres": [1, 5]
+    },
+    {
+        "id": 9,
+        "albumId": 5,
+        "title": "Moth Into Flame",
+        "duration": 350,
+        "isLiked": false,
+        "songPath": "moth-into-flame.mp3",
+        "genres": [1, 5]
+    },
+    {
+        "id": 10,
+        "albumId": 6,
+        "title": "Platonik",
+        "duration": 204,
+        "isLiked": false,
+        "songPath": "platonik.mp3",
+        "genres": [1, 4, 5]
+    },
+    {
+        "id": 11,
+        "albumId": 6,
+        "title": "Paranoya",
+        "duration": 166,
+        "isLiked": true,
+        "songPath": "paranoya.mp3",
+        "genres": [1, 4, 5]
+    }
+]

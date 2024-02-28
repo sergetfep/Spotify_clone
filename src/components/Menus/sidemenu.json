@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Home",
+        "route": "/",
+        "icon": "home"
+    },
+    {
+        "name": "Search",
+        "route": "/search",
+        "icon": "search"
+    },
+    {
+        "name": "Library",
+        "route": "/collection",
+        "icon": "book"
+    }
+]

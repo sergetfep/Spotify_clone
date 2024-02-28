@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Rock",
+        "image": "rock.png",
+        "backgroundColor": "purple"
+    },
+    {
+        "id": 2,
+        "name": "Pop",
+        "image": "pop.png",
+        "backgroundColor": "red"
+    },
+    {
+        "id": 3,
+        "name": "Rap",
+        "image": "rap.png",
+        "backgroundColor": "yellow"
+    },
+    {
+        "id": 4,
+        "name": "Turkish Rock",
+        "image": "turkish-rock.png",
+        "backgroundColor": "zinc"
+    },
+    {
+        "id": 5,
+        "name": "Heavy Metal",
+        "image": "heavy-metal.png",
+        "backgroundColor": "blue"
+    },
+    {
+        "id": 6,
+        "name": "Hip-Hop",
+        "image": "hiphop.png",
+        "backgroundColor": "green"
+    }
+]

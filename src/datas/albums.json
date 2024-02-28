@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "artistId": 1,
+        "name": "The Eminem Show",
+        "image": "the-eminem-show.jpg",
+        "year": 2002,
+        "isFavorite": true,
+        "backgroundColor": "red"
+    },
+    {
+        "id": 2,
+        "artistId": 1,
+        "name": "The Marshall Mathers LP",
+        "image": "the-marshall-mathers.jpg",
+        "year": 2013,
+        "isFavorite": false,
+        "backgroundColor": "yellow"
+    },
+    {
+        "id": 3,
+        "artistId": 2,
+        "name": "MONTERO",
+        "image": "montero.jpg",
+        "year": 2021,
+        "isFavorite": true,
+        "backgroundColor": "fuchsia"
+    },
+    {
+        "id": 4,
+        "artistId": 3,
+        "name": "Master of Puppets",
+        "image": "master-of-puppets.jpg",
+        "year": 1986,
+        "isFavorite": true,
+        "backgroundColor": "orange"
+    },
+    {
+        "id": 5,
+        "artistId": 3,
+        "name": "Hardwired To Self-Destruct",
+        "image": "hardwired-to-self-destruct.jpg",
+        "year": 2016,
+        "isFavorite": true,
+        "backgroundColor": "cyan"
+    },
+    {
+        "id": 6,
+        "artistId": 4,
+        "name": "Aşkın Izdırabını",
+        "image": "askin-izdirabini.jpg",
+        "year": 2012,
+        "isFavorite": true,
+        "backgroundColor": "pink"
+    }
+]
